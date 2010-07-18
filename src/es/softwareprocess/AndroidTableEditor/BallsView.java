@@ -14,9 +14,11 @@ import android.util.Log;
 public class BallsView extends View implements View.OnTouchListener {
 	String program = "AndroidBalls";
 	String hostname = "192.168.0.242";
-	int port = 30666;
 	Harbinger harb = null;
+	int port = 30666;
+
 	
+
     static int colorHelper(int r, int g, int b) {
     	int color = (0xFF << 24 | r << 16 | g << 8 | b);
     	return color;    

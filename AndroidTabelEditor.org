@@ -1,0 +1,33 @@
+* Android Table Editor
+** Description
+   This is a table editor. It meant to provide a draggable table where
+   you edit the values.
+
+   I use it in CSound to modify tables live and use wave guide like instruments
+
+** Current Issues
+   - Borders 
+     - we need to be able to set 0
+** Todo
+*** Integrate old modifier algorithms
+    - Could use a long click or could provide buttons on either side
+      - would solve the border issue
+    - Would be nice if we could see a list of options with checkboxes
+      for those processes rather than onetime shots
+*** Settings menu
+    - Would be nice to press the menu button to set things
+    - setting include 
+      - host
+      - port
+      - id
+*** Settings per unit
+    - Min and Max
+    - Table ID
+    - Log scale
+*** License
+    - GPL3 it so everyone hates it
+*** Put on github
+    - Need a license first
+*** Video demo
+    - need to show a video of us using it
+
